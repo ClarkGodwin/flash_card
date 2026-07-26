@@ -3,9 +3,6 @@
 @theme {
     --color-frosted: var(--color-green-500);
 
-    /* ==========================================================================
-     MODE LUMINEUX PARFAIT (Contraste accentué et net)
-     ========================================================================== */
     --color-surface-100: #ffffff;
     /* Premier plan pur : Cartes, inputs, menus blancs éclatants */
     --color-surface-200: #f8fafc;
@@ -20,4 +17,7 @@
     /* Ardoise très sombre, presque noir */
     --color-text-muted: #475569;
     /* Gris moyen pour les labels et sous-titres */
+
+    --text-width : clamp(18.75rem, 13.194rem + 27.778vw, 37.5rem);
+    /*For the main text of  the card*/
 }
