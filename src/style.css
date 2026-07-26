@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme {
+    --color-frosted: var(--color-green-500);
+
+    /* ==========================================================================
+     MODE LUMINEUX PARFAIT (Contraste accentué et net)
+     ========================================================================== */
+    --color-surface-100: #ffffff;
+    /* Premier plan pur : Cartes, inputs, menus blancs éclatants */
+    --color-surface-200: #f8fafc;
+    /* Blanc/Gris très subtil : Pour les lignes de tableau ou éléments secondaires */
+    --color-surface-300: #f1f5f9;
+    /* Gris clair structurant : Pour les grands conteneurs en arrière-plan */
+    --color-surface-400: #e2e8f0;
+    /* Fond de page et bordures : Donne une vraie assise et détache les blocs */
+
+    /* Texte Lumineux */
+    --color-text-main: #0f172a;
+    /* Ardoise très sombre, presque noir */
+    --color-text-muted: #475569;
+    /* Gris moyen pour les labels et sous-titres */
+}
