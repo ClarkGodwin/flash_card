@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "Who created Vue.js and in what year was it initially released?",
+    "answer": "Vue.js was created by Evan You and initially released in February 2014."
+  },
+  {
+    "id": 2,
+    "question": "What inspired Evan You to create Vue.js while working at Google?",
+    "answer": "Evan You wanted a lightweight framework that extracted the reactive data binding and component features he liked from AngularJS without the extra complexity."
+  },
+  {
+    "id": 3,
+    "question": "When was Vue 1.0 officially released, and what was its codename?",
+    "answer": "Vue 1.0.0 was officially released in October 2015, codenamed 'Evangelion'."
+  },
+  {
+    "id": 4,
+    "question": "What anime-themed naming convention did Evan You use for major Vue releases?",
+    "answer": "Major Vue releases were named after famous anime series, such as Evangelion (1.0), Ghost in the Shell (2.0), and One Piece (3.0)."
+  },
+  {
+    "id": 5,
+    "question": "When was Vue 2.0 released, and what major architectural change did it introduce?",
+    "answer": "Vue 2.0 was released in September 2016, introducing a Virtual DOM implementation for improved rendering performance."
+  },
+  {
+    "id": 6,
+    "question": "What was the primary state management library created for Vue.js applications before Pinia?",
+    "answer": "Vuex was the official state management pattern and library for Vue.js applications before Pinia became the recommended default for Vue 3."
+  },
+  {
+    "id": 7,
+    "question": "When was Vue 3.0 officially released, and what was its codename?",
+    "answer": "Vue 3.0 was officially released on September 18, 2020, codenamed 'One Piece'."
+  },
+  {
+    "id": 8,
+    "question": "What major API feature was introduced in Vue 3 to improve code organization and reusability?",
+    "answer": "The Composition API was introduced alongside the traditional Options API to improve code organization, logic reuse, and TypeScript support."
+  },
+  {
+    "id": 9,
+    "question": "What build tool was created by Evan You alongside Vue 3 to replace Webpack for faster development?",
+    "answer": "Vite, a modern, fast front-end build tool leveraging native ES modules, was created by Evan You in 2020."
+  },
+  {
+    "id": 10,
+    "question": "What language was Vue 3 entirely rewritten in to provide better developer experience and type safety?",
+    "answer": "Vue 3 was entirely rewritten in TypeScript."
+  },
+  {
+    "id": 11,
+    "question": "What was the original name of Vue when Evan You started working on it in 2013?",
+    "answer": "The project was originally named Seed.js before being renamed to Vue.js (derived from the French word for 'view')."
+  },
+  {
+    "id": 12,
+    "question": "When did Vue.js cross 100,000 stars on GitHub, becoming one of the most popular open-source projects?",
+    "answer": "Vue.js surpassed 100,000 GitHub stars in mid-2018."
+  },
+  {
+    "id": 13,
+    "question": "How is Vue.js funded and maintained compared to corporate-backed frameworks like React or Angular?",
+    "answer": "Vue.js is an independent, community-driven open-source project funded primarily through crowdfunding, Patreon, Open Collective, and corporate sponsors."
+  },
+  {
+    "id": 14,
+    "question": "What SSR (Server-Side Rendering) framework built on top of Vue.js was released in 2016 by Sébastien and Alexandre Chopin?",
+    "answer": "Nuxt.js (now Nuxt) was released in late 2016 as a higher-level framework for building server-rendered and static Vue applications."
+  },
+  {
+    "id": 15,
+    "question": "What single-file component (SFC) file extension was introduced by Vue.js?",
+    "answer": "The .vue file extension, which combines HTML template, JavaScript logic, and CSS styles in a single file."
+  },
+  {
+    "id": 16,
+    "question": "When did Vue 2 reach its official End of Life (EOL)?",
+    "answer": "Vue 2 reached its official End of Life (EOL) on December 31, 2023."
+  },
+  {
+    "id": 17,
+    "question": "What features were backported from Vue 3 into Vue 2.7 (released in June 2022)?",
+    "answer": "Vue 2.7 (codenamed 'Narrative') backported Composition API support, <script setup>, and un-prefixed useCssModule to ease transition to Vue 3."
+  },
+  {
+    "id": 18,
+    "question": "What official tool was recommended in Vue 3 for replacing Vue CLI as the project scaffolding tool?",
+    "answer": "create-vue, built on top of Vite, replaced Vue CLI as the official project generator."
+  },
+  {
+    "id": 19,
+    "question": "What state management library officially replaced Vuex as the recommended state store in Vue 3?",
+    "answer": "Pinia, created by Eduardo San Martin Morote, officially replaced Vuex as the recommended state management library."
+  },
+  {
+    "id": 20,
+    "question": "What syntax sugar feature was introduced to streamline the Composition API in Vue 3 single-file components?",
+    "answer": "<script setup>, which simplifies component authoring by exposing top-level bindings to templates without explicit setup functions or return statements."
+  }
+]
