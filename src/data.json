@@ -1,5 +1,9 @@
 [
   {
+    "id" : 0,
+    "question" : "Welcome in our Quiz on the history of Vue. \n Click on next to start."
+  },
+  {
     "id": 1,
     "question": "Who created Vue.js and in what year was it initially released?",
     "answer": "Vue.js was created by Evan You and initially released in February 2014."
@@ -98,5 +102,9 @@
     "id": 20,
     "question": "What syntax sugar feature was introduced to streamline the Composition API in Vue 3 single-file components?",
     "answer": "<script setup>, which simplifies component authoring by exposing top-level bindings to templates without explicit setup functions or return statements."
+  },
+  {
+    "id" : 21,
+    "question" : "You made id. This is the end. See you next time"
   }
 ]
