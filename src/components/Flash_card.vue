@@ -40,7 +40,7 @@ const progressPercentage = computed(() => Math.round(((activeQuestionId.value + 
         <div>
             <div class="bg-surface-200 h-2.5 overflow-hidden my-4">
                 <!-- Remplissage dynamique de la barre -->
-                <div class="bg-frosted h-2.5 rounded-full transition-all duration-300 ease-out"
+                <div class="bg-frosted h-2.5 rounded-2xl transition-all duration-300 ease-out"
                     :style="{ width: `${progressPercentage}%` }"></div>
             </div>
             
