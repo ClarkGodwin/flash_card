@@ -4,20 +4,21 @@
     --color-frosted: var(--color-green-500);
 
     --color-surface-100: #ffffff;
-    /* Premier plan pur : Cartes, inputs, menus blancs éclatants */
+    /* Pure foreground: bright white cards, inputs, menus */
     --color-surface-200: #f8fafc;
-    /* Blanc/Gris très subtil : Pour les lignes de tableau ou éléments secondaires */
+    /* Very subtle white/gray: for table lines or secondary elements */
     --color-surface-300: #f1f5f9;
-    /* Gris clair structurant : Pour les grands conteneurs en arrière-plan */
+    /* Light structuring gray: for large background containers */
     --color-surface-400: #e2e8f0;
-    /* Fond de page et bordures : Donne une vraie assise et détache les blocs */
+    /* Page background and borders: gives solid grounding and separates blocks */
 
-    /* Texte Lumineux */
+    /* Bright text */
     --color-text-main: #0f172a;
-    /* Ardoise très sombre, presque noir */
+    /* Very dark slate, almost black */
     --color-text-muted: #475569;
-    /* Gris moyen pour les labels et sous-titres */
+    /* Medium gray for labels and subtitles */
 
-    --text-width : clamp(18.75rem, 13.194rem + 27.778vw, 37.5rem);
-    /*For the main text of  the card*/
+    --container-fluid-card-width : clamp(18.75rem,13.194rem + 27.778vw,37.5rem);
+    /*The fluid  width of every component*/
+
 }
